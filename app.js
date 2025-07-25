@@ -31,7 +31,7 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 
-const user = [];
+const use = [];
 app.post("/user", (req, res) => {
   const { name, email } = req.body;
   user.push({ name, email });
